@@ -2,6 +2,7 @@ import React from "react";
 import { Bot } from "lucide-react";
 import { useState } from "react";
 import AIChatBox from "./AIChatbox";
+import { Tooltip } from "react-tooltip";
 
 export default function AIChatButton() {
 	const [chatBoxOpen, setChatBoxOpen] = useState(true);

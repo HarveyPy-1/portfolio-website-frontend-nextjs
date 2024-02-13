@@ -41,13 +41,13 @@ export default function AIChatBox({ open, onClose }: AIChatBoxProps) {
 	return (
 		<div
 			className={cn(
-				"bottom-0 right-0 z-50 w-full max-w-[500px] p-1 xl:right-36",
+				"bottom-0 right-0 z-50 w-full max-w-[500px] p-2 xl:right-20",
 				open ? "fixed" : "hidden"
 			)}>
 			<button onClick={onClose} className="mb-1 ms-auto block">
 				<XCircle size={30} className="rounded-full bg-background" />
 			</button>
-			<div className="flex h-[600px] flex-col rounded-md border bg-white shadow-xl">
+			<div className="flex h-[400px] md:h-[600px] flex-col rounded-md border bg-white shadow-xl z-50">
 				<div className="mt-3 h-full overflow-y-auto px-3" ref={scrollRef}>
 					{messages.map((message) => (
 						<ChatMessage message={message} key={message.id} />

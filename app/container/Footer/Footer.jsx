@@ -5,6 +5,7 @@ import { images } from "../../constants";
 import { AppWrap, SuperWrap } from "../../wrapper";
 import { client } from "../../services/client";
 import "./Footer.scss";
+import Image from "next/image";
 
 const year = new Date().getFullYear();
 
@@ -48,13 +49,13 @@ const Footer = () => {
 			</h2>
 			<div className="app__footer-cards">
 				<div className="app__footer-card">
-					<img src={images.email} alt="email image" />
+					<Image src={images.email} alt="email image" />
 					<a href="mailto:eziheugonna@gmail.som" className="p-text">
 						eziheugonna@gmail.com
 					</a>
 				</div>
 				<div className="app__footer-card">
-					<img src={images.mobile} alt="mobile image" />
+					<Image src={images.mobile} alt="mobile image" />
 					<a href="tel: +447741944233">+447741944233</a>
 				</div>
 			</div>

@@ -41,8 +41,7 @@ const About = () => {
 	return (
 		<>
 			<h2 className="head-text">
-				Get To{" "}
-				<span>Know Me</span>
+				Get To <span>Know Me</span>
 			</h2>
 
 			<section className="app__profiles">
