@@ -39,7 +39,7 @@ const About = () => {
 	}, []);
 
 	return (
-		<>
+		<div>
 			<h2 className="head-text">
 				Get To <span>Know Me</span>
 			</h2>
@@ -62,7 +62,7 @@ const About = () => {
 					</motion.div>
 				))}
 			</section>
-		</>
+		</div>
 	);
 };
 // eslint-disable-next-line react-refresh/only-export-components

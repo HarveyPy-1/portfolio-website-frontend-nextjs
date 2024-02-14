@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, DM_Sans } from "next/font/google";
-import { ThemeProvider } from "@/app/components/ThemeProvider";
+// import { ThemeProvider } from "@/app/components/ThemeProvider";
 import "./globals.css";
 
 const dm_sans = DM_Sans({ subsets: ["latin"] });
@@ -18,7 +18,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={dm_sans.className}>
-				<ThemeProvider attribute="class">{children}</ThemeProvider>
+				{children}
 			</body>
 		</html>
 	);

@@ -3,43 +3,43 @@
 	"about_me": "I am a passionate and skilled fullstack developer with a knack for crafting elegant solutions to complex problems. With a strong foundation in both frontend and backend technologies, I thrive on bringing ideas to life through code. My journey in software development has equipped me with a diverse skill set, enabling me to create robust, scalable, and user-friendly web applications.",
 	"what_i_do": [
 		{
-			"what_i_do": "Fullstack development, Front End development, Back End development and Database administration",
-			"link_to_what_i_do": "https://www.harveyezihe.tech/?=1#about"
+			"WHAT I DO": "Fullstack development, Front End development, Back End development and Database administration",
+			"LINK TO ABOUT ME PAGE": "https://www.harveyezihe.tech/?=1#about"
 		}
 	],
 	"projects": [
 		{
-			"name": "AI note taking app",
-			"description": "Revolutionize your notetaking. Our AI-powered app makes finding information easy. Effortlessly retrieve insights from your saved notes, simplifying your experience and boosting productivity.",
-			"project_link": "https://ai-notes-psi.vercel.app/"
+			"PROJECT TITLE:": "AI note taking app",
+			"DESCRIPTION FOR AI NOTE TAKING APP": "Revolutionize your notetaking. Our AI-powered app makes finding information easy. Effortlessly retrieve insights from your saved notes, simplifying your experience and boosting productivity.",
+			"LINK TO AI NOTE TAKING APP": "https://ai-notes-psi.vercel.app/"
 		},
 		{
-			"name": "London Underground Journey planner",
-			"description": "A fully functional, real-time journey planner for the London Underground Trains, using TFL API",
-			"project_link": "https://london-underground-journey-planner.onrender.com/"
+			"PROJECT TITLE": "London Underground Journey planner",
+			"DESCRIPTION FOR LONDON UNDERGROUND JOURNEY PLANNER": "A fully functional, real-time journey planner for the London Underground Trains, using TFL API",
+			"LINK TO LONDON UNDERGROUND JOURNEY PLANNER": "https://london-underground-journey-planner.onrender.com/"
 		},
 		{
-			"name": "Fully functional e-commerce website",
-			"description": "A packed e-commerce project with functionality to add new products, sign in with google, offline cart that merges with online cart when you sign in, pagination, recent product hero page, etc.",
-			"project_link": "https://market-hub-harveypy-1.vercel.app/"
+			"PROJECT TITLE": "Fully functional e-commerce website",
+			"DESCRIPTION FOR FULLY FUNCTIONAL E-COMMERCE WEBSITE": "A packed e-commerce project with functionality to add new products, sign in with google, offline cart that merges with online cart when you sign in, pagination, recent product hero page, etc.",
+			"LINK TO FULLY FUNCTIONAL E-COMMERCE WEBSITE": "https://market-hub-harveypy-1.vercel.app/"
 		},
 		{
-			"name": "Shopify store",
-			"description": "Real world project for a client, providing a fully functional e-commerce fashion website. Capable of user registration, checkout, marketing emails, etc. Built using Shopify.",
-			"project_link": "https://www.fiowanbyvi.shop/"
+			"PROJECT TITLE": "Shopify store",
+			"DESCRIPTION FOR SHOPIFY STORE": "Real world project for a client, providing a fully functional e-commerce fashion website. Capable of user registration, checkout, marketing emails, etc. Built using Shopify.",
+			"LINK TO SHOPIFY STORE": "https://www.fiowanbyvi.shop/"
 		},
 		{
-			"name": "Rawg.io website clone",
-			"description": "A fully responsive remastered version of rawg.io, using ReactJS and Chakra UI, with full functionality. Data is being fetched from rawg.io API.",
-			"project_link": "https://rawg-io-clone.vercel.app/"
+			"PROJECT TITLE": "Rawg.io website clone",
+			"DESCRIPTION FOR RAWG.IO WEBSITE CLONE": "A fully responsive remastered version of rawg.io, using ReactJS and Chakra UI, with full functionality. Data is being fetched from rawg.io API.",
+			"LINK TO RAWG.IO WEBSITE CLONE": "https://rawg-io-clone.vercel.app/"
 		},
 		{
-			"name": "Fully featured blog",
-			"description": "A fully featured and functional RESTful Blog which allows user registration, post creation, comments, user specific privileges and more.",
-			"project_link": "https://flask-blog-tznv.onrender.com/"
+			"PROJECT TITLE": "Fully featured blog",
+			"DESCRIPTION FOR FULLY FEATURED BLOG": "A fully featured and functional RESTful Blog which allows user registration, post creation, comments, user specific privileges and more.",
+			"LINK TO FULLY FEATURED BLOG": "https://flask-blog-tznv.onrender.com/"
 		},
 		{
-			"link_to_all_projects": "https://www.harveyezihe.tech/?=1#projects"
+			"LINK TO PROJECTS PAGE": "https://www.harveyezihe.tech/?=1#projects"
 		}
 	],
 	"skills": [
@@ -47,58 +47,58 @@
 			"skills": "Vanilla Javascript, NextJS 14, React 18, Typescript, Python, Docker, MongoDB, PostgreSQL, SQL/NoSQL, TailwindCSS, Git/GitHub, etc"
 		},
 		{
-			"link_to_skills": "https://www.harveyezihe.tech/?=1#skills"
+			"LINK TO SKILLS PAGE": "https://www.harveyezihe.tech/?=1#skills"
 		}
 	],
 	"experience": [
 		{
 			"role": "Fullstack Developer",
-			"company": "Freelance",
-			"duration": "February 2023 to Present"
+			"FULLSTACK DEVELOPER COMPANY NAME": "Freelance",
+			"DURATION FOR FULLSTACK DEVELOPER ROLE": "February 2023 to Present"
 		},
 		{
 			"role": "Fullstack Web Developer",
-			"company": "Punch Group (Volunteer)",
-			"duration": "February 2023 to Present"
+			"FULLSTACK WEB DEVELOPER COMPANY NAME": "Punch Group (Volunteer)",
+			"DURATION FOR FULLSTACK WEB DEVELOPER ROLE": "February 2023 to Present"
 		},
 		{
-			"link_to_experience": "https://www.harveyezihe.tech/?=1#skills"
+			"LINK TO EXPERIENCE PAGE": "https://www.harveyezihe.tech/?=1#skills"
 		}
 	],
 	"qualifications": [
 		{
-			"institution": "UDEMY",
-			"certification": "100 Days of Code: The Complete Python Pro Bootcamp"
+			"qualification institution": "UDEMY",
+			"udemy certification": "100 Days of Code: The Complete Python Pro Bootcamp"
 		},
 		{
-			"institution": "STANFORD ONLINE UNIVERSITY",
-			"certification": "Database: Relational Databases and SQL"
+			"qualification institution": "STANFORD ONLINE UNIVERSITY",
+			"stanford online university certification": "Database: Relational Databases and SQL"
 		},
 		{
-			"institution": "BATH SPA UNIVERSITY",
-			"certification": "Web Development"
+			"qualification institution": "BATH SPA UNIVERSITY",
+			"bath spa university certification": "Web Development"
 		},
 		{
-			"institution": "CODING WITH MOSH",
-			"certification": "React 18"
+			"qualification institution": "CODING WITH MOSH",
+			"coding with mosh certification": "React 18"
 		},
 		{
-			"link_to_qualifications": "https://www.harveyezihe.tech/?=1#certificates"
+			"link to qualifications page": "https://www.harveyezihe.tech/?=1#certificates"
 		}
 	],
 	"education": [
 		{
 			"degree": "Bachelor of Engineering in Civil Engineering",
-			"school": "Landmark University",
-			"study_period": "2012 - 2017"
+			"BACHELOR DEGREE SCHOOL NAME": "Landmark University",
+			"BACHELOR DEGREE STUDY PERIOD": "2012 - 2017"
 		},
 		{
 			"degree": "Post Graduate Degree in Oil and Gas Engineering",
-			"school": "Robert Gordon University, Aberdeen, Scotland",
-			"study_period": "2019 - 2020"
+			"POST GRADUATE DEGREE SCHOOL NAME": "Robert Gordon University, Aberdeen, Scotland",
+			"POST GRADUATE DEGREE STUDY PERIOD": "2019 - 2020"
 		},
 		{
-			"link_to_education": "https://www.harveyezihe.tech/?=1#skills"
+			"LINK TO EDUCATION PAGE": "https://www.harveyezihe.tech/?=1#skills"
 		}
 	],
 	"contact": [
@@ -109,7 +109,7 @@
 			"github": "https://github.com/HarveyPy-1"
 		},
 		{
-			"link_to_contact": "https://www.harveyezihe.tech/?=1#contact"
+			"LINK TO CONTACT PAGE": "https://www.harveyezihe.tech/?=1#contact"
 		}
 	],
 	"open_to_work": "Yes"

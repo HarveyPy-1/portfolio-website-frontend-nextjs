@@ -41,7 +41,7 @@ export default function AIChatBox({ open, onClose }: AIChatBoxProps) {
 	return (
 		<div
 			className={cn(
-				"bottom-0 right-0 z-50 w-full max-w-[500px] p-2 xl:right-20",
+				"bottom-0 right-0 z-50 w-full max-w-[500px] p-2 text-black xl:right-20",
 				open ? "fixed" : "hidden"
 			)}>
 			<button onClick={onClose} className="mb-1 ms-auto block">
@@ -77,19 +77,10 @@ export default function AIChatBox({ open, onClose }: AIChatBoxProps) {
 								Send a message to start the AI chat!
 							</p>
 							<p>
-								You can ask the chatbot any question about me and it will find the
+								You can ask the AI any question about me and it will find the
 								relevant information on this website.
 							</p>
-							<p className="text-sm text-muted-foreground">
-								PS: If you want to learn how to build your own AI chatbot, check out the
-								tutorial on the{" "}
-								<a
-									href="https://www.youtube.com/c/codinginflow?sub_confirmation=1"
-									className="text-primary hover:underline">
-									Coding in Flow YouTube channel
-								</a>
-								.
-							</p>
+							
 						</div>
 					)}
 				</div>
@@ -146,7 +137,7 @@ function ChatMessage({ message: { role, content } }: ChatMessageProps) {
 							<a
 								{...props}
 								href={props.href ?? ""}
-								className="text-primary hover:underline"
+								className="text-blue-600 hover:underline"
 							/>
 						),
 						p: ({ node, ...props }) => <p {...props} className="mt-3 first:mt-0" />,

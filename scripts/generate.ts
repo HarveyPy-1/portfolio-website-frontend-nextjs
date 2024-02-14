@@ -23,7 +23,7 @@ async function generateEmbeddings() {
 
 	await vectorStore.addDocuments(docs);
 
-	// console.log(splitDocs);
+	// console.log(docs);
 }
 
 generateEmbeddings();

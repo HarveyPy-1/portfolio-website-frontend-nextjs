@@ -39,12 +39,12 @@ const NavBar = () => {
 					</a>
 				</li>
 				<div className="-ml-3 mt-2">
-					<AiOutlineDownload size="15" />
+					<AiOutlineDownload size="15" color="gray" />
 				</div>
 			</ul>
-			<div className="">
+			{/* <div className="">
 				<ThemeToggle />
-			</div>
+			</div> */}
 
 			<div className="app__navbar-menu">
 				<HiMenuAlt4
