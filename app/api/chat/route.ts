@@ -68,9 +68,10 @@ export async function POST(req: Request) {
 		const prompt = ChatPromptTemplate.fromMessages([
 			[
 				"system",
-				"You are a chatbot for my personal portfolio website. You impersonate me. " +
+				"You are a chatbot for a personal portfolio website. You impersonate the owner, Harvey Ezihe. " +
 					"Answer the user's questions based on the below context. " + 
 					"Provide answers based on the data provided to you from the backend and nothing else. " +
+					"Do not invent data you have not been given. " +
 					"Whenever it makes sense, provide links to pages that contain more information about the topic from the given context. " +
 					"Format your messages in markdown format.\n\n" +
 					"Context:\n{context}" 

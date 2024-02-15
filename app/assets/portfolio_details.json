@@ -7,7 +7,7 @@
 			"LINK TO ABOUT ME PAGE": "/#about"
 		}
 	],
-	"projects": [
+	"projects I have done": [
 		{
 			"PROJECT TITLE:": "AI note taking app",
 			"DESCRIPTION FOR AI NOTE TAKING APP": "Revolutionize your notetaking. Our AI-powered app makes finding information easy. Effortlessly retrieve insights from your saved notes, simplifying your experience and boosting productivity.",
@@ -42,7 +42,7 @@
 			"LINK TO PROJECTS PAGE": "/#projects"
 		}
 	],
-	"skills": [
+	"my skills": [
 		{
 			"skills": "Vanilla Javascript, NextJS 14, React 18, Typescript, Python, Docker, MongoDB, PostgreSQL, SQL/NoSQL, TailwindCSS, Git/GitHub, etc"
 		},
@@ -50,7 +50,7 @@
 			"LINK TO SKILLS PAGE": "/#skills"
 		}
 	],
-	"experience": [
+	"my experience": [
 		{
 			"role": "Fullstack Developer",
 			"FULLSTACK DEVELOPER COMPANY NAME": "Freelance",
@@ -65,7 +65,7 @@
 			"LINK TO EXPERIENCE PAGE": "/#skills"
 		}
 	],
-	"qualifications": [
+	"my qualifications": [
 		{
 			"qualification institution": "UDEMY",
 			"udemy certification": "100 Days of Code: The Complete Python Pro Bootcamp"
@@ -86,7 +86,7 @@
 			"link to qualifications page": "/#certificates"
 		}
 	],
-	"education": [
+	"my education": [
 		{
 			"degree": "Bachelor of Engineering in Civil Engineering",
 			"BACHELOR DEGREE SCHOOL NAME": "Landmark University",
@@ -101,7 +101,7 @@
 			"LINK TO EDUCATION PAGE": "/#skills"
 		}
 	],
-	"contact": [
+	"my contact": [
 		{
 			"phone_number": "+447741944233",
 			"email": "eziheugonna@gmail.com",
@@ -112,5 +112,5 @@
 			"LINK TO CONTACT PAGE": "/#contact"
 		}
 	],
-	"open_to_work": "Yes"
+	"open to work": "Yes"
 }
