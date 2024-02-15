@@ -10,7 +10,7 @@ export default function AIChatButton() {
 	useEffect(() => {
 		setTimeout(() => {
 			setChatBoxOpen(true);
-		}, 500);
+		}, 2000);
 	}, []);
 
 	return (
