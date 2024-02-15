@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Bot } from "lucide-react";
 import { useState } from "react";
 import AIChatBox from "./AIChatbox";
 import { Tooltip } from "@nextui-org/react";
 
 export default function AIChatButton() {
-	const [chatBoxOpen, setChatBoxOpen] = useState(true);
+	const [chatBoxOpen, setChatBoxOpen] = useState(false);
+
+	useEffect(() => {
+		setTimeout(() => {
+			setChatBoxOpen(true);
+		}, 500);
+	}, []);
 
 	return (
 		<>

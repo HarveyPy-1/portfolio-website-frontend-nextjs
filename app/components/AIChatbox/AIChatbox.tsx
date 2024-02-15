@@ -57,7 +57,7 @@ export default function AIChatBox({ open, onClose }: AIChatBoxProps) {
 							message={{
 								id: "loading",
 								role: "assistant",
-								content: "Thinking...",
+								content: "Thinking 🤔...",
 							}}
 						/>
 					)}
@@ -78,7 +78,7 @@ export default function AIChatBox({ open, onClose }: AIChatBoxProps) {
 							</p>
 							<p>
 								You can ask the AI any question about me and it will find the
-								relevant information on this website.
+								relevant information from this website.
 							</p>
 							
 						</div>
@@ -138,6 +138,7 @@ function ChatMessage({ message: { role, content } }: ChatMessageProps) {
 								{...props}
 								href={props.href ?? ""}
 								className="text-blue-600 hover:underline"
+								target="blank"
 							/>
 						),
 						p: ({ node, ...props }) => <p {...props} className="mt-3 first:mt-0" />,

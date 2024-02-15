@@ -4,7 +4,7 @@
 	"what_i_do": [
 		{
 			"WHAT I DO": "Fullstack development, Front End development, Back End development and Database administration",
-			"LINK TO ABOUT ME PAGE": "https://www.harveyezihe.tech/?=1#about"
+			"LINK TO ABOUT ME PAGE": "/#about"
 		}
 	],
 	"projects": [
@@ -39,7 +39,7 @@
 			"LINK TO FULLY FEATURED BLOG": "https://flask-blog-tznv.onrender.com/"
 		},
 		{
-			"LINK TO PROJECTS PAGE": "https://www.harveyezihe.tech/?=1#projects"
+			"LINK TO PROJECTS PAGE": "/#projects"
 		}
 	],
 	"skills": [
@@ -47,7 +47,7 @@
 			"skills": "Vanilla Javascript, NextJS 14, React 18, Typescript, Python, Docker, MongoDB, PostgreSQL, SQL/NoSQL, TailwindCSS, Git/GitHub, etc"
 		},
 		{
-			"LINK TO SKILLS PAGE": "https://www.harveyezihe.tech/?=1#skills"
+			"LINK TO SKILLS PAGE": "/#skills"
 		}
 	],
 	"experience": [
@@ -62,7 +62,7 @@
 			"DURATION FOR FULLSTACK WEB DEVELOPER ROLE": "February 2023 to Present"
 		},
 		{
-			"LINK TO EXPERIENCE PAGE": "https://www.harveyezihe.tech/?=1#skills"
+			"LINK TO EXPERIENCE PAGE": "/#skills"
 		}
 	],
 	"qualifications": [
@@ -83,7 +83,7 @@
 			"coding with mosh certification": "React 18"
 		},
 		{
-			"link to qualifications page": "https://www.harveyezihe.tech/?=1#certificates"
+			"link to qualifications page": "/#certificates"
 		}
 	],
 	"education": [
@@ -98,18 +98,18 @@
 			"POST GRADUATE DEGREE STUDY PERIOD": "2019 - 2020"
 		},
 		{
-			"LINK TO EDUCATION PAGE": "https://www.harveyezihe.tech/?=1#skills"
+			"LINK TO EDUCATION PAGE": "/#skills"
 		}
 	],
 	"contact": [
 		{
 			"phone_number": "+447741944233",
 			"email": "eziheugonna@gmail.com",
-			"linkedin": "https://www.linkedin.com/in/harveyezihe/",
-			"github": "https://github.com/HarveyPy-1"
+			"linkedin link": "https://www.linkedin.com/in/harveyezihe/",
+			"github link": "https://github.com/HarveyPy-1"
 		},
 		{
-			"LINK TO CONTACT PAGE": "https://www.harveyezihe.tech/?=1#contact"
+			"LINK TO CONTACT PAGE": "/#contact"
 		}
 	],
 	"open_to_work": "Yes"
