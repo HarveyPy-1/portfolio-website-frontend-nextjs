@@ -138,7 +138,8 @@ function ChatMessage({ message: { role, content } }: ChatMessageProps) {
 								{...props}
 								href={props.href ?? ""}
 								className="text-blue-700 hover:underline"
-								target={props.href?.includes("/#") ? "blank" : ""}
+								target={props.href?.includes("/#") ? "" : "_blank"}
+								rel="noreferrer noopener"
 							/>
 						),
 						p: ({ node, ...props }) => <p {...props} className="mt-3 first:mt-0" />,
