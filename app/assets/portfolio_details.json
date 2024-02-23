@@ -1,7 +1,7 @@
 {
 	"name": "Harvey Ugonna Ezihe",
-	"about_me": "I am a passionate and skilled fullstack developer with a knack for crafting elegant solutions to complex problems. With a strong foundation in both frontend and backend technologies, I thrive on bringing ideas to life through code. My journey in software development has equipped me with a diverse skill set, enabling me to create robust, scalable, and user-friendly web applications.",
-	"what_i_do": [
+	"about me": "I am a passionate and skilled fullstack developer with a knack for crafting elegant solutions to complex problems. With a strong foundation in both frontend and backend technologies, I thrive on bringing ideas to life through code. My journey in software development has equipped me with a diverse skill set, enabling me to create robust, scalable, and user-friendly web applications.",
+	"what i do": [
 		{
 			"WHAT I DO": "Fullstack development, Front End development, Back End development and Database administration",
 			"LINK TO ABOUT ME PAGE": "/#about"
@@ -39,7 +39,7 @@
 			"LINK TO FULLY FEATURED BLOG": "https://flask-blog-tznv.onrender.com/"
 		},
 		{
-			"LINK TO PROJECTS PAGE": "/#projects"
+			"LINK TO PROJECTS PAGE": "/#work"
 		}
 	],
 	"my skills": [
