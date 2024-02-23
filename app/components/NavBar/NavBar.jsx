@@ -4,9 +4,9 @@ import { HiMenuAlt4, HiX } from "react-icons/hi";
 import { AiOutlineDownload } from "react-icons/ai";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
-import ThemeToggle from "../ThemeToggle";
+// import ThemeToggle from "../ThemeToggle";
 import Image from "next/image";
-import AIChatButton from "../AIChatbox/AIChatButton";
+// import AIChatButton from "../AIChatbox/AIChatButton";
 
 const NavBar = () => {
 	const [toggle, setToggle] = useState(false);

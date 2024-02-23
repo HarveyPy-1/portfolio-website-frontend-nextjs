@@ -28,6 +28,7 @@ import harvey2 from "../assets/harvey2.png";
 import harvey_logo from "../assets/harvey_logo.png";
 import nextjs from "../assets/nextjs.png";
 import tailwind from "../assets/tailwind.png"
+import profile_image from "../assets/profile_image.png"
 
 export default {
 	email,
@@ -60,4 +61,5 @@ export default {
 	harvey_logo,
 	nextjs,
 	tailwind,
+	profile_image
 };

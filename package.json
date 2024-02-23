@@ -17,6 +17,7 @@
 		"@sanity/image-url": "^1.0.2",
 		"@types/node": "^20.11.16",
 		"@upstash/redis": "^1.28.3",
+		"@vercel/analytics": "^1.2.2",
 		"ai": "^2.2.33",
 		"clsx": "^2.1.0",
 		"dotenv": "^16.4.1",

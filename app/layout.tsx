@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { Inter, DM_Sans } from "next/font/google";
+import { DM_Sans } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 // import { ThemeProvider } from "@/app/components/ThemeProvider";
 import "./globals.css";
 
@@ -19,6 +20,7 @@ export default function RootLayout({
 		<html lang="en">
 			<body className={dm_sans.className}>
 				{children}
+				<Analytics />
 			</body>
 		</html>
 	);
