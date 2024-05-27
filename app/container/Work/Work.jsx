@@ -65,8 +65,8 @@ const Work = () => {
 			</div>
 			<div>
 				<p className="p-text">
-					📌 Some projects are hosted on a free, slow server. Give a moment to
-					load. 📌
+					📌 Some projects are hosted on a free, slow server. Give a moment to load.
+					📌
 				</p>
 			</div>
 
@@ -79,7 +79,8 @@ const Work = () => {
 						<div className="app__work-img app__flex">
 							<img src={urlFor(work.imgUrl)} alt={work.name} />
 							<motion.div
-								whileInView={{ opacity: [0.7] }}
+								// whileInView={{ opacity: [0.7] }}
+								
 								whileHover={{ opacity: [0.7, 1] }}
 								transition={{
 									duration: 0.25,
@@ -116,6 +117,19 @@ const Work = () => {
 									</motion.div>
 								</a>
 							</motion.div>
+							{/* <div className="app__work-hover app__flex hover:opacity-100">
+								<a href={work.projectLink} target="_blank" rel="noreferrer noopener">
+									<div className="app__flex">
+										<AiFillEye />
+									</div>
+								</a>
+								<a href={work.codeLink} target="_blank" rel="noreferrer noopener">
+									<div
+										className="app__flex">
+										<AiFillGithub />
+									</div>
+								</a>
+							</div> */}
 						</div>
 						<div className="app__work-content app__flex">
 							<h4 className="bold-text">{work.title}</h4>
